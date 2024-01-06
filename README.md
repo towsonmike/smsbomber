@@ -1,7 +1,11 @@
 # smsbomber
 Kurulum Linux ve Termux için 
-apt update && apt upgrade -y
-pkg install git 
-pkg install python -y
-pip install requests 
-pip install colorama
+1- apt update && apt upgrade -y
+2- pkg install git 
+3- pkg install python -y
+4- pip install requests 
+5- pip install colorama
+6- https://github.com/towsonmike/smsbomber
+7- cd smsbomber
+8- chmod 777 apex.py
+9- python apex.py
