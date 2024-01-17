@@ -17,53 +17,13 @@ for attribute in dir(SendSms):
 while True:
   system("cls||clear")
   print("""{}
------------//¤¤\\
-----------// ¤¤ \\
-----------\\ ¤¤ //
----------- \\¤¤//
----------- (__)
------------(__)
------------(__)
------------(__)
--\__/\/-----\/\_/
---\°[-------------] °/
-------\°¤ ---- ¤°/
------------\ ° /
------------|\°/|
------------[|\_/|]
------------[|[¤]|]
------------[|;¤;|]
------------[;;¤;;]
-----------;;;;¤]|]\
----------;;;;;¤]|]-\
---------;;;;;[¤]|]--\
--------;;;;;|[¤]|]---\
-------;;;;;[|[¤]|]|---|
------;;;;;[|[¤]|]|---|
-------;;;;[|[¤]|/---/
--------;;;[|[¤]/---/
---------;;[|[¤/---/
----------;[|[/---/
-----------[|/---/
------------/---/
-----------/---/|]
----------/---/]|];
---------/---/¤]|];;
--------|---|[¤]|];;;
--------|---|[¤]|];;;
---------\--|[¤]|];;
----------\-|[¤]|];
------------\|[¤]|]
-------------\\¤//
--------------\|/
---------------V
 
 
     """.format(Fore.LIGHTYELLOW_EX, len(servisler_sms), Style.RESET_ALL,
                Fore.CYAN))
-  print(Fore.LIGHTGREEN_EX + "{/} " + Style.RESET_ALL + "İletişim " +
-        Fore.LIGHTBLUE_EX + Style.BRIGHT + "Apex t.me/bbqwenick\n\n" +
-        Fore.RED + "{!} " + Style.RESET_ALL + "Apex V1 0\n" + Style.RESET_ALL)
+  print(Fore.LIGHTGREEN_EX + "{/} " + Style.RESET_ALL + "Yapımcı " +
+        Fore.LIGHTBLUE_EX + Style.BRIGHT + "Anonymous\n\n" + Fore.RED +
+        "{!} " + Style.RESET_ALL + "AnonymousBomber\n" + Style.RESET_ALL)
 
   try:
     menu = int(
@@ -91,11 +51,9 @@ while True:
         tel_no5 = "bos"
       if tel_no == "":
         system("cls||clear")
-        print(
-            Fore.LIGHTGREEN_EX + "[+] " + Fore.CYAN + "TXT dosya formatı:\n" +
-            Fore.LIGHTGREEN_EX + "[+] " + Fore.CYAN +
-            "En fazla 5 numara olacak şekilde başında '+90' olmadan alt alta numaraları yazın."
-        )
+        print(Fore.LIGHTGREEN_EX + "[+] " + Fore.CYAN +
+              "TXT dosya formatı:\n" + Fore.LIGHTGREEN_EX + "[+] " +
+              Fore.CYAN + " başında '+90' olmadan alt alta numaraları yazın.")
         print("")
         print("")
         print(Fore.LIGHTYELLOW_EX + "TXT dosyasının yolunu giriniz: " +
@@ -163,8 +121,10 @@ while True:
       continue
     system("cls||clear")
     try:
-      print(Fore.LIGHTGREEN_EX + "[+] " + Fore.CYAN + " ")
-      print(Fore.LIGHTYELLOW_EX + "Sınırsız için enter bas : " +
+      print(Fore.LIGHTGREEN_EX + "[+] " + Fore.CYAN +
+            "Birden çok numara varsa her bir numara için.")
+      print(Fore.LIGHTYELLOW_EX +
+            "Kaç adet SMS göndermek istiyorsun (sonsuz ise 'enter' bas): " +
             Fore.LIGHTGREEN_EX,
             end="")
       kere = input()
@@ -174,14 +134,14 @@ while True:
         kere = None
     except ValueError:
       system("cls||clear")
-      print(Fore.LIGHTRED_EX + "Hatalı giri  ş yaptınız. Tekrar deneyiniz.")
+      print(Fore.LIGHTRED_EX + "Hatalı giriş yaptınız. Tekrar deneyiniz.")
       sleep(3)
       continue
 
     system("cls||clear")
     try:
       print(Fore.LIGHTYELLOW_EX +
-            "Kaç saniye aralıkla göndermek istiyorsun(Öneri:3): " +
+            "Kaç saniye aralıkla göndermek istiyorsun(Öneri:1): " +
             Fore.LIGHTGREEN_EX,
             end="")
       aralik = int(input())
@@ -220,11 +180,10 @@ while True:
   elif menu == 2:
     system("cls||clear")
     print(Fore.LIGHTYELLOW_EX + "İletişim bilgileri:\n\n" +
-          Fore.LIGHTGREEN_EX + "t.me/bbqwenick")
+          Fore.LIGHTGREEN_EX + "Bymastir")
 
-    print(Fore.LIGHTGREEN_EX + " " + Style.RESET_ALL +
-          "Devamı için t.me/bbqwenick " + Fore.LIGHTMAGENTA_EX + Style.BRIGHT +
-          "{/}Made Apex\n" + Style.RESET_ALL)
+    print(Fore.LIGHTGREEN_EX + "{/} " + Style.RESET_ALL + "Made bymastir " +
+          Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "bymastir\n" + Style.RESET_ALL)
     print(Fore.LIGHTRED_EX + "Başlangıç ekranı için'enter' tuşuna basınız..")
     input()
   elif menu == 3:
