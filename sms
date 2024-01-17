@@ -26,14 +26,14 @@ class SendSms():
           })
       if len(kahve_dunyasi.json()["meta"]["messages"]["error"]) == 0:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> core.kahvedunyasi.com"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> core.kahvedunyasi.com"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> core.kahvedunyasi.com"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> core.kahvedunyasi.com"
       )
 
   #wmf.com.tr
@@ -53,14 +53,14 @@ class SendSms():
                           })
       if wmf.status_code == 202:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> wmf.com.tr"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> wmf.com.tr"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> wmf.com.tr"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> wmf.com.tr"
       )
 
   #tiklagelsin.com
@@ -91,14 +91,14 @@ class SendSms():
       r = requests.post(url, headers=headers, json=json)
       if r.json()["data"]["generateOtp"] == True:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> svc.apps.tiklagelsin.com"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> svc.apps.tiklagelsin.com"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> svc.apps.tiklagelsin.com"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> svc.apps.tiklagelsin.com"
       )
 
   #ayyildiz.com.tr
@@ -118,14 +118,14 @@ class SendSms():
       r = requests.post(url, headers=headers)
       if r.json()["Success"] == True:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> api.altinyildizclassics.com"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> api.altinyildizclassics.com"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> api.altinyildizclassics.com"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> api.altinyildizclassics.com"
       )
 
   #naosstars.com
@@ -155,14 +155,14 @@ class SendSms():
       r = requests.post(url, headers=headers, json=json)
       if r.status_code == 200:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> api.naosstars.com"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> api.naosstars.com"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> api.naosstars.com"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> api.naosstars.com"
       )
 
   #bim
@@ -173,14 +173,14 @@ class SendSms():
           json={"phone": self.phone})
       if bim.status_code == 200:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> bim.veesk.net"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> bim.veesk.net"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> bim.veesk.net"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> bim.veesk.net"
       )
 
   #englishhome.com
@@ -202,14 +202,14 @@ class SendSms():
           data=data)
       if home.status_code == 202:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> englishhome.com"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> englishhome.com"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> englishhome.com"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> englishhome.com"
       )
 
   #icq.net
@@ -227,14 +227,14 @@ class SendSms():
       r = requests.post(url, headers=headers)
       if r.json()["response"]["statusCode"] == 200:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> u.icq.net"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> u.icq.net"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> u.icq.net"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> u.icq.net"
       )
 
   #evidea.com
@@ -271,14 +271,14 @@ class SendSms():
       r = requests.post(url, headers=headers, data=data)
       if r.status_code == 202:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made BAnonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> evidea.com"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> evidea.com"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> evidea.com"
+          f"{Fore.LIGHTRED_EX}Made By Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> evidea.com"
       )
 
   #marti.tech
@@ -293,14 +293,14 @@ class SendSms():
       r = requests.post(url, json=json)
       if r.json()["isSuccess"] == True:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> customer.martiscooter.com"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> customer.martiscooter.com"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made  Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> customer.martiscooter.com"
+          f"{Fore.LIGHTRED_EX}Made By Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> customer.martiscooter.com"
       )
 
   #heyscooter.com.tr
@@ -317,14 +317,14 @@ class SendSms():
       r = requests.post(url, headers=headers)
       if r.json()["IsSuccess"] == True:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> heyapi.heymobility.tech"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> heyapi.heymobility.tech"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> heyapi.heymobility.tech"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> heyapi.heymobility.tech"
       )
 
   #bineq.tech
@@ -342,14 +342,14 @@ class SendSms():
       r = requests.post(url, headers=header)
       if r.json()["IsSuccess"] == True:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> bineqapi.heymobility.tech"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> bineqapi.heymobility.tech"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made  Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> bineqapi.heymobility.tech"
+          f"{Fore.LIGHTRED_EX}Made  Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> bineqapi.heymobility.tech"
       )
 
   #tiklagelsin.com
@@ -380,14 +380,14 @@ class SendSms():
       r = requests.post(url, headers=headers, json=json)
       if r.json()["data"]["generateOtp"] == True:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> svc.apps.tiklagelsin.com"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> svc.apps.tiklagelsin.com"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> svc.apps.tiklagelsin.com"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> svc.apps.tiklagelsin.com"
       )
 
   #tasimacim.com
@@ -398,14 +398,14 @@ class SendSms():
       r = requests.post(url=url, json=json)
       if r.status_code == 200:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> server.tasimacim.com"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> server.tasimacim.com"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> server.tasimacim.com"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> server.tasimacim.com"
       )
 
   #yuffi.co
@@ -416,12 +416,12 @@ class SendSms():
       r = requests.post(url, json=json)
       if r.json()["success"] == True:
         print(
-            f"{Fore.LIGHTGREEN_EX}Made Anonymous | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> api.yuffi.co"
+            f"{Fore.LIGHTGREEN_EX}Made Bymastir | [+] {Style.RESET_ALL}Başarılı! {self.phone} --> api.yuffi.co"
         )
         self.adet += 1
       else:
         raise
     except:
       print(
-          f"{Fore.LIGHTRED_EX}Made Anonymous | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> api.yuffi.co"
+          f"{Fore.LIGHTRED_EX}Made Bymastir | [-] {Style.RESET_ALL}Başarısız! {self.phone} --> api.yuffi.co"
       )
